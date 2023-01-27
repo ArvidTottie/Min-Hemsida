@@ -34,7 +34,8 @@
 .footer {
     grid-column: 1/3;
     background-color: #f2f2f2;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
 }
 body {
@@ -70,14 +71,12 @@ nav a:hover {
 }
 .address{
     grid-area: address;
-    text-align: left;
 }
 .h3 {
     color: #fff;
 }
 .telefon {
     grid-area: telefon;
-    text-align: right;
 }
 img {
     width: 50%;
