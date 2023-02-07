@@ -31,10 +31,11 @@
     color: #fff;
 }
 
-.right-content {
+.right-content h1, ol{
     grid-area: right-content;
     display: grid;
-    place-items: center;
+    color: #fff;
+
 }
 
 .footer {
