@@ -165,17 +165,19 @@ img {
     text-align: left;
     list-style-position: left;
 }
-.productList {
+.produktList {
     width: 500px;
 }
-.product {
-    //*border-bottom: 1px dashed #aaa; *//
+/*
+.produkt {
+    //*border-bottom: 1px dashed #aaa;
 }
-.product .name {
+*/
+.produkt .name {
     font-weight: bold;
     color: white;
 }
-.product .price {
+.produkt .price {
     float: right;
     color: white;
 
