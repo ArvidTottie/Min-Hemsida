@@ -162,19 +162,19 @@
   }
   
   /* Bildkollage */
-  .portfolio {
+  .gallery {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
      
   }
   
-  .portfolio img {
+  .gallery img {
     max-width: 200px;
     max-height: 200px;
     box-shadow: var(--shadow);
   }
-  .portfolio video {
+  .gallery video {
     max-width: 200px;
     max-height: 200px;
     box-shadow: var(--shadow);
