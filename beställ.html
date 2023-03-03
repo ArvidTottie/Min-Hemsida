@@ -1,38 +1,71 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
 <head>
-  <title>Lunden Pizzeria</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Lunden</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="grid-container">
-      <nav class="navbar">
-        <a href="index.html" class="logga">Lunden</a>
-        <a href="meny.html">Menu</a>
-        <a href="beställ.html">Beställ</a>
-        <a href="omoss.html">Om Oss</a>
-        <a href="#Inställningar">Inställningar</a>
-      </nav>
-      <div class="left-content">
-        <h1>BESTÄLL</h1>
-
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="index.html">Hem</a>
+            </li>
+            <li>
+              <a href="meny.html">Meny</a>
+            </li>
+            <li>
+              <a href="beställ.html">Beställ</a>
+            </li>
+            <li>
+              <a href="omoss.html">Om Oss</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- Top Container -->
+        <section class="top-container">
+          <header class="omoss">
+            <h1>Ny Beställning</h1>
+            <p>Välkommen - välj vad du vill äta</p>
+            <a href="#" class="beställknappar">Äta här</a>
+            <a href="#" class="beställknappar">Ta med</a>
+        
+            <h1>Ny Beställning</h1>
+            <p>Välkommen - välj vad du vill äta</p>
+            <a href="#" class="beställknappar">Äta här</a>
+            <a href="#" class="beställknappar">Ta med</a>
+          </header>
+        </section>
+        <section class="">
+            <h3>Önskas kvitto? Ange din e-postaddress nedan</h3>
+            <form action="#">
+            <label for="email">Enter your email:</label>
+            <input  type="email" id="email" name="email">
+            <input class="beställknappar" type="submit">
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <div class="address">
+                <h3>Address</h3>
+                <p>Kärrvägen 40, Järfälla</p>
+            </div>
+            <div class="sociala-medier">
+                <h3>Sociala Medier</h3>
+                <p></p>
+            </div>
+            <div class="telefon">
+                <h3>Telefon</h3>
+                <p>0858034950</p>
+            </div>
+        </footer>
+    
       </div>
-      <div class="right-content">
-      </div>
-      <footer class="footer">
-        <div class="address">
-            <h3>Address</h3>
-            <p>Kärrvägen 40, Järfälla</p>
-        </div>
-        <div class="sociala-medier">
-            <h3>Sociala Medier</h3>
-            <p></p>
-        </div>
-        <div class="telefon">
-            <h3>Telefon</h3>
-            <p>0858034950</p>
-        </div>
-      </footer>
-    </div>
-  </body>
+      <!-- Wrapper Ends -->
+</body>
 </html>

@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-<html lang="se">
+<html lang="en">
 <head>
-  <title>Lunden Pizzeria</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Lunden</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="grid-container">
-      <nav class="navbar">
-        <a href="index.html" class="logga">Lunden</a>
-        <a href="meny.html">Meny</a>
-        <a href="beställ.html">Beställ</a>
-        <a href="omoss.html">Om Oss</a>
-        <a href="#Inställningar">Inställningar</a>
-      </nav>
-      <div class="left-content">
-        <h1>Välkommen till Lunden Pizzeria</h1>
-        <h2>Vi serverar husmans, pizza, kebab, grill och salladsrätter.</h2>
-        <a href="meny.html">
-        <button>Meny</button>
-        </a>
-
-        <a href="beställ.html">
-            <button>Beställ</button>
-        </a>
+    <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="main-nav">
+          <ul>
+            <li>
+              <a href="index.html">Hem</a>
+            </li>
+            <li>
+              <a href="meny.html">Meny</a>
+            </li>
+            <li>
+              <a href="beställ.html">Beställ</a>
+            </li>
+            <li>
+              <a href="omoss.html">Om Oss</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <!-- Top Container -->
+        <section class="top-container">
+          <div class="showcase">
+            <h1>Välkommen till Lunden Pizzeria</h1>
+            <p>Vi serverar husmans, pizza, kebab, grill och salladsrätter.</p>
+            <div class="startsida-knappar">
+            <a href="meny.html" class="btn">Meny</a>
+            <a href="beställ.html" class="btn">Beställ</a>
+            </div>
+         </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer>
+            <div class="address">
+                <h3>Address</h3>
+                <p>Kärrvägen 40, Järfälla</p>
+            </div>
+            <div class="sociala-medier">
+                <h3>Sociala Medier</h3>
+                <p></p>
+            </div>
+            <div class="telefon">
+                <h3>Telefon</h3>    
+                <p>0858034950</p>
+            </div>
+        </footer>
       </div>
-      <div class="right-content">
-        <img src="bilder/pizza2.png" alt="Bild på en Pizza">
-      </div>
-      <footer class="footer">
-        <div class="address">
-            <h3>Address</h3>
-            <p>Kärrvägen 40, Järfälla</p>
-        </div>
-        <div class="sociala-medier">
-            <h3>Sociala Medier</h3>
-            <p></p>
-        </div>
-        <div class="telefon">
-            <h3>Telefon</h3>
-            <p>0858034950</p>
-        </div>
-      </footer>
-    </div>
-  </body>
+</body>
 </html>
