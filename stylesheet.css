@@ -167,18 +167,15 @@
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-     
   }
   
   .gallery img {
     max-width: 200px;
     max-height: 200px;
-    box-shadow: var(--shadow);
   }
   .gallery video {
     max-width: 200px;
     max-height: 200px;
-    box-shadow: var(--shadow);
   }
 
   /* Media Queries */
